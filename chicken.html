@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Recipe Book | Meals | Chicken Burrito Bowl</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+    </head>
+
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="meals.html" >
+                <i class="fas fa-arrow-circle-left"></i>
+            </a>
+            
+            <img src="images/logo-text.png">
+        </div>
+        
+        <div id="recipe">
+            <div class="recipe-details">
+                <img src="images/checken%20Barrito.jpg">
+                
+                <h1>Chicken Burrito Bowl</h1>
+                <div class="recipe-details-info">
+                    <P><b>with juicy grilled chicken, corn, bean</b></P>
+                    <P style="float: right"><b>Price</b> : R85</P>
+                    <p>Serving : 4 People</p>
+                    <p>Price : R150</p>
+                </div>
+                
+                <div class="recipe-details-steps">
+                    <h2>Description</h2>
+                    
+                    <ol>
+                        <li>This plate is very delicious and nutritious</li>
+                        <li>High in Fiber Content and Protein</li>
+                        <li>Very wonderful plate for bulking and dieting</li>
+                    </ol>
+                </div>
+                <div class="recipe-details-ingredients">
+                    <h2>Extras You Can Add</h2>
+                    
+                    <input id="Check-01" type="checkbox">
+                    <label for="check-01">Chicken Wings</label>
+                    <br>
+                     <input id="Check-02" type="checkbox">
+                    <label for="check-02">Dashed Whsikey on the rocks</label>
+                    <br>
+                     <input id="Check-03" type="checkbox">
+                    <label for="check-03">Toasted Fries</label>
+                    <br>
+                     <input id="Check-04" type="checkbox">
+                    <label for="check-05">Joll Of Rice</label>
+                    <br>
+                     <input id="Check-05" type="checkbox">
+                    <label for="check-05">Half Marinated Chicken</label>
+                
+                <div id="form">
+                    <form action="order.html" method="POST">
+                        <ul>
+                            <li>
+                                <label for="comm" id="comm-label">Comments</label>
+                            </li>
+                            <li>
+                                <textarea type="text" id="comm" name="comments">
+                                </textarea>
+                            </li>
+                            <li>
+                                <button>
+                                    <a href="order.html">Place Order</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+            </div>
+            </div>
+    </body>
+</html>
