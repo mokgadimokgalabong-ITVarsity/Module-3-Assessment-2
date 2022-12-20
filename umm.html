@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Recipe Book | Desserts | Umm Ali</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+    </head>
+
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="deserts.html" >
+                <i class="fas fa-arrow-circle-left"></i>
+            </a>
+            
+            <img src="images/logo-text.png">
+        </div>
+        
+        <div id="recipe">
+            <div class="recipe-details">
+                <img src="images/kaab%20el%20ghazal%20dessert.jpg">
+                
+                <h1>Umm Ali with a scoop of French vanilla ice cream.</h1>
+                <div class="recipe-details-info">
+                    <P><b></b></P>
+                    <P style="float: right"><b>Price</b> : R209</P>
+                    <p><b>Serving</b> : 2 People</p>
+
+                </div>
+                
+                <div class="recipe-details-steps">
+                    <h2>Description</h2>
+                    
+                    <ol>
+                        <li>This plate is very delicious and nutritious</li>
+                        <li>High in Fiber Content and Protein</li>
+                        <li>Very wonderful plate and mouth watering</li>
+                    </ol>
+                </div>
+                <div class="recipe-details-ingredients">
+                    <h2>Extras You Can Add</h2>
+                    
+                    <input id="Check-01" type="checkbox">
+                    <label for="check-01">Side dish Salad</label>
+                    <br>
+                     <input id="Check-02" type="checkbox">
+                    <label for="check-02">Baby Portobellos</label>
+                    <br>
+                     <input id="Check-03" type="checkbox">
+                    <label for="check-03">Soft Drink</label>
+                    <br>
+                     <input id="Check-04" type="checkbox">
+                    <label for="check-05">Scottish Whisikey</label>
+                    <br>
+                     <input id="Check-05" type="checkbox">
+                    <label for="check-05">Ginger Cookies</label>
+                </div>
+                <div id="form">
+                    <form action="order.html" method="POST">
+                        <ul>
+                            <li>
+                                <label for="comm" id="comm-label">Comments</label>
+                            </li>
+                            <li>
+                                <textarea type="text" id="comm" name="comments">
+                                </textarea>
+                            </li>
+                            <li>
+                                <button>
+                                    <a href="order.html">Place Order</a>
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
